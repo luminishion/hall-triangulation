@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\cavelib">
+      <UniqueIdentifier>{ca272eae-5c89-4348-a3f5-37e69788dae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\cavelib\alg">
+      <UniqueIdentifier>{66ba9546-715b-4d3a-9314-e409ed7901bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\cavelib">
+      <UniqueIdentifier>{ac83b209-e2d4-4eb0-b027-13dcf11c0b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\cavelib\alg">
+      <UniqueIdentifier>{93f3c725-09c0-4f73-b4fd-6aeda2d5ca6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera_view.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cave_renderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cavelib\borders.cpp">
+      <Filter>Исходные файлы\cavelib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cavelib\data.cpp">
+      <Filter>Исходные файлы\cavelib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cavelib\point_type.cpp">
+      <Filter>Исходные файлы\cavelib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cavelib\points_triangulation.cpp">
+      <Filter>Исходные файлы\cavelib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cavelib\alg\delone.cpp">
+      <Filter>Исходные файлы\cavelib\alg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cavelib\alg\hul_connector.cpp">
+      <Filter>Исходные файлы\cavelib\alg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cavelib\alg\jarvis_ex.cpp">
+      <Filter>Исходные файлы\cavelib\alg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cavelib\alg\triangles_filter.cpp">
+      <Filter>Исходные файлы\cavelib\alg</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cavelib\alg\vec3.cpp">
+      <Filter>Исходные файлы\cavelib\alg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cave_renderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera_view.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cavelib\points_triangulation.h">
+      <Filter>Файлы заголовков\cavelib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cavelib\point_type.h">
+      <Filter>Файлы заголовков\cavelib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cavelib\data.h">
+      <Filter>Файлы заголовков\cavelib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cavelib\borders.h">
+      <Filter>Файлы заголовков\cavelib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cavelib\alg\delone.h">
+      <Filter>Файлы заголовков\cavelib\alg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cavelib\alg\jarvis_ex.h">
+      <Filter>Файлы заголовков\cavelib\alg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cavelib\alg\hull_connector.h">
+      <Filter>Файлы заголовков\cavelib\alg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cavelib\alg\triangles_filter.h">
+      <Filter>Файлы заголовков\cavelib\alg</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cavelib\alg\vec3.h">
+      <Filter>Файлы заголовков\cavelib\alg</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
